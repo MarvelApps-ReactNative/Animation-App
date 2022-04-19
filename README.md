@@ -60,7 +60,9 @@ In the app, a red color view moves from top left to bottom right and slows its s
 Takes an array of mappings and extracts values from each arg accordingly, then calls setValue on the mapped outputs.
 In the app, there is a touchable view, which can be moved from anywhere on the screen but whenever it is released it will reach at its initial position.
 
-##Interpolation Animation
+
+
+## Interpolation Animation
 
 The interpolate() function allows input ranges to map to different output ranges. By default, it will extrapolate the curve beyond the ranges given, but you can also have it clamp the output value.
 In the app, a ball with the help of view is created by giving the border radius. Whenever the input increases then the ball translates in both directions and also the color, opacity is also getting changed.
