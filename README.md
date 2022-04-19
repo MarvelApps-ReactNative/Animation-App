@@ -29,19 +29,31 @@ Animated libaray basically three types of animations:
 Home screen consists of a list of various animations and on top of the home screen the rain effect is created with the help of custom animation using loop, parallel, sequence and timing animation.
 Each type of animation with examples can be seen whenever the user clicks on a particular button.
 
+<img src="https://github.com/iamkaushalgupta/ChatBot/blob/master/gifs/Home.gif" width=220 height=400 />
+
 ## Spring Animation
 
 Animates a value according to an analytical spring model based on damped harmonic oscillation. Tracks velocity state to create fluid motions as the toValue updates, and can be chained together.
 In the App, a red color view moves from top left to bottom right and performs harmonic motion with some bounces.
 
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/spring_animation.gif" width=220 height=400 />
+
+
 ## Timing Animation
 Animates a value along a timed easing curve. The Easing module has tons of predefined curves, or you can use your own function.
 In the app, a red color view moves from top left to bottom right and takes five seconds to reach at bottom right.
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/Timing_animation.gif" width=220 height=400 />
+
+
 
 ## Decay Animation
 
 Animates a value from an initial velocity to zero based on a decay coefficient. In simple words, the animation starts with initial velocity and velocity keeps on decreasing depending on the decay coefficient.
 In the app, a red color view moves from top left to bottom right and slows its speed as defined by decay coefficient.
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/Decay_animation.gif" width=220 height=400 />
+
 
 ## Event Animation
 
