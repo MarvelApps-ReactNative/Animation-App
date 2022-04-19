@@ -61,31 +61,53 @@ Takes an array of mappings and extracts values from each arg accordingly, then c
 In the app, there is a touchable view, which can be moved from anywhere on the screen but whenever it is released it will reach at its initial position.
 
 
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/event_animation.gif" width=220 height=400 />
+
 
 ## Interpolation Animation
 
 The interpolate() function allows input ranges to map to different output ranges. By default, it will extrapolate the curve beyond the ranges given, but you can also have it clamp the output value.
 In the app, a ball with the help of view is created by giving the border radius. Whenever the input increases then the ball translates in both directions and also the color, opacity is also getting changed.
 
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/Interpolation_animation.gif" width=220 height=400 />
+
+
+
 ##  Looping Animation
 
 Loops a given animation continuously, so that each time it reaches the end, it resets and begins again from the start.
 In the app, the animation is being performed repeatedly which is used in interpolation for some iterations.
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/loop_in_animation.gif" width=220 height=400 />
+
 
 ##  Parallel Animation
 
 Starts an array of animations all at the same time. By default, if one of the animations is stopped, they will all be stopped.
 In the app, whenever the click me button is clicked, one view is get faded out and parallely one view gets faded In.
 
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/parallel_animation.gif" width=220 height=400 />
+
+
 ## Sequence Animation
 Starts an array of animations in order, waiting for each to complete before starting the next. If the current running animation is stopped, no following animations will be started.
+
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/sequence_animation.gif" width=220 height=400 />
+
 
 ## Stagger Animation
 
 Array of animations may run in parallel (overlap), but are started in sequence with successive delays. Nice for doing trailing effects. 
 In the app, whenever the click me button is clicked then one view is faded in and another view faded out along with some delay.
 
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/stagger_animation.gif" width=220 height=400 />
+
+
 ## Fade In Fade Out Animation
 
 Custom Animation which is performed whenever the button is pressed. In the app, whenever the fade in view button is clicked the fading view is faded in and whenever the fade out button is clicked then fading view is faded out
 
+
+<img src="https://github.com/MarvelApps-ReactNative/Animation-App/blob/master/gifs/fade_In_Out_Animation.gif" width=220 height=400 />
