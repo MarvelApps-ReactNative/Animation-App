@@ -3,7 +3,7 @@
 Animation is the way to enhance the experience of application. The Animated API is designed to concisely express a wide variety of interesting animation and interaction patterns in a very efficient way. Animated focuses on declarative relationships between inputs and outputs, with configurable transforms in between, and start/stop methods to control time-based animation execution. 
 Animated exports six animatable component types: View, Text, Image, ScrollView, FlatList and SectionList. 
 
-<img src="https://github.com/iamkaushalgupta/ChatBot/blob/master/gifs/Home.gif" width=250 height=250 />
+<img src="https://github.com/iamkaushalgupta/ChatBot/blob/master/gifs/Home.gif" width=250 height=400 />
 
 
 ## Configuring Animation 
