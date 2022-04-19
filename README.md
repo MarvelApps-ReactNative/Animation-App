@@ -4,7 +4,7 @@ Animation is the way to enhance the experience of application. The Animated API 
 Animated exports six animatable component types: View, Text, Image, ScrollView, FlatList and SectionList. 
 ![Alt Text](https://github.com/iamkaushalgupta/ChatBot/blob/master/gifs/Home.gif)
 
-![Alt Text](https://github.com/iamkaushalgupta/ChatBot/blob/master/gifs/Home.gif)
+
 
 ## Configuring Animation 
 Animated libaray basically three types of animations: 
